@@ -4,6 +4,7 @@ public class A_Notes_List {
 
     /*
     List
+    -Duplicate allowed.
     -we can not add another element once class loading is done.
     -can not add null.
 

@@ -7,7 +7,7 @@ public class swap_without3rdVariable {
         a=a+b;
         b=a-b;
         a=a-b;
-        System.out.println(a);
-        System.out.println(b);
+        System.out.println("a is "+a);
+        System.out.println("b is "+b);
     }
 }

@@ -5,7 +5,7 @@ public class S_Reverse {
         String s="Praveen";
         char ch[]=s.toCharArray();
         for (int i=ch.length-1;i>=0;i--){
-            System.out.println(ch[i]);
+            System.out.print(ch[i]);
         }
     }
 }

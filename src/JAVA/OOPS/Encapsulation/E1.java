@@ -18,7 +18,7 @@ public class E1 {
 
 class runner3 {
     public static void main(String[] args) {
-        E1 e = new E1("Sanjay");
+        E1 e = new E1("Manoj");
         System.out.println("Before setting the Student name >>" + e.getStudentName());
         e.setStudentName("Praveen");
         System.out.println("After setting the Student name >>" + e.getStudentName());

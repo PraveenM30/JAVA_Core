@@ -10,9 +10,9 @@ public class S_charAt_toCharArray {
         //System.out.println(s.charAt(s.length()));//String index out of bound Exception
         System.out.println(s.charAt(s.length()-3));
 
-//        char ch[]=s.toCharArray();
-//        for (int i=0; i<ch.length;i++){
-//            System.out.print(ch[i]);
-//        }
+        char ch[]=s.toCharArray();
+        for (int i=0; i<ch.length;i++){
+            System.out.print(ch[i]);
+        }
     }
 }
