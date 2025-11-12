@@ -24,6 +24,5 @@ public class Set_LinkedHashSet {
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
-
     }
 }

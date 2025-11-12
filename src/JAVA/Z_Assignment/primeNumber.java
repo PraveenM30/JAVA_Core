@@ -2,7 +2,7 @@
 
     public class primeNumber {
         public static void main(String[] args) {
-            int a=4;
+            int a=11;
             if (a==0 || a==1){
                 System.out.println(a+" this is neither prime nor composite");
             }

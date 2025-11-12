@@ -2,7 +2,7 @@ package JAVA.Z_Assignment;
 
 public class Vowel_Consonant {
     public static void main (String[] args) {
-        char ch='g';
+        char ch='h';
 
         if ((ch>='A' && ch<='Z') || (ch>='a' && ch<='z')){
             if (ch>='A' && ch<='Z'){

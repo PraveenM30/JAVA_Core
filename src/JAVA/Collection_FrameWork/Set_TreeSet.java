@@ -25,7 +25,5 @@ public class Set_TreeSet {
         while (itr.hasNext()){
             System.out.println(itr.next());
         }
-
     }
-
 }

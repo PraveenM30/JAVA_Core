@@ -15,8 +15,8 @@ public class List_ArrayList1 {
         fruits.add(true);
         fruits.add(null);
         fruits.add(123);
-        fruits.remove("orange");
-        System.out.println(fruits.isEmpty());
+        fruits.remove("Orange");
+        System.out.println("list is empty: "+fruits.isEmpty());
 
         Iterator itr = fruits.iterator();
         while (itr.hasNext()) {
