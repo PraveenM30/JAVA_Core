@@ -16,4 +16,3 @@ public class EvenSum_OddSum {
             System.out.println("odd sum is "+oddsum);
         }
     }
-

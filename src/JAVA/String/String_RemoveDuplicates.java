@@ -13,7 +13,6 @@ public class String_RemoveDuplicates {
         for (char c : input.toCharArray()) {
             charSet.add(c);
         }
-
         // Build a new string without duplicates
         StringBuilder result = new StringBuilder();
         for (char c : charSet) {

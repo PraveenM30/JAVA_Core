@@ -11,6 +11,5 @@ public class swap_3rdVariable {
 
         System.out.println(a);
         System.out.println(b);
-
     }
 }
