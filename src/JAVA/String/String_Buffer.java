@@ -13,7 +13,7 @@ public class String_Buffer {
             System.out.println("After insertion: " + sb);  // Output: "Hello Java World"
 
             // Delete characters from index 5 to 9
-            sb.delete(5, 9);
+            sb.delete(5, 10);
             System.out.println("After deletion: " + sb);  // Output: "Hello World"
 
             // Reverse the string

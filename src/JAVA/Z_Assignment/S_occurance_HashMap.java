@@ -14,5 +14,3 @@ public class S_occurance_HashMap {
             System.out.println( charCount);
         }
     }
-
-
