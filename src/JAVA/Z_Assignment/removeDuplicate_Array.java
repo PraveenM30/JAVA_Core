@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class Array_removeDuplicate {
+public class removeDuplicate_Array{
 
     public static void main(String[] args) {
         Integer[] numbers = {2, 3, 2, 4, 5, 1, 6,1,0};  // Input array

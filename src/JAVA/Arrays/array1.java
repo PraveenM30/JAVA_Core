@@ -6,8 +6,8 @@ public class array1 {
         //PAPTF total length of the string using Array.
         String s[]={"Hi","how","are","you!"};
         int a=s.length;
-        System.out.println(a);
-        for (int i=0;i<a;i++){
+        System.out.println("length of an array is "+a);
+        for (int i=0;i<s.length;i++){
             System.out.println(s[i]);
         }
     }
