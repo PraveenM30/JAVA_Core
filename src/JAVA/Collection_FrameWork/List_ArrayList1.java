@@ -27,5 +27,4 @@ public class List_ArrayList1 {
 //            }
         }
     }
-
 }

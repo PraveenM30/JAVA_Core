@@ -7,12 +7,12 @@ public class A_Notes_Set {
 HashSet
 -Duplicates not allowed.
 -No Insertion order.
--Can add null.
+-Can add 1 null.
 
 Linked HashSet
 -Duplicates not allowed.
 -Follows Insertion order.
--can Add null
+-can Add 1 null
 
 Tree Set
 -Duplicates not allowed.
