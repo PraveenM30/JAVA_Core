@@ -9,7 +9,6 @@ public class A_Notes {
      1. Abstract
      2. Interface
 
-
      Rules for Abstract
      1. Methods with header but without implementations is known as Abstarct method or incomplete method.
      2. The class should be prefixed with abstract.

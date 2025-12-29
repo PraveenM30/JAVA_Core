@@ -12,8 +12,9 @@ public class removeDuplicate_Array{
         for (Integer n : numbers) {
             set.add(n);
         }
-        Set<Integer> set1 = new LinkedHashSet<>(Arrays.asList(numbers));
         System.out.println("Using for each logic : " +set);
+
+        Set<Integer> set1 = new LinkedHashSet<>(Arrays.asList(numbers));
         System.out.println(" Using Arrays.asList() logic : "+set1);
     }
 }

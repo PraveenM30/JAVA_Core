@@ -21,7 +21,12 @@ Tree Set
 -cannot add null
 
 
-
+| Interface | Class               | Order      | Duplicates  | Null Allowed   | Thread-Safe  | Notes / Use Case   |
+| --------- | ------------------- | ---------- | ----------- | -------------- | ------------ | ------------------ |
+| Set       | HashSet             | ❌ No      | ❌ No       | ✅ One        | ❌ No        | Fastest, most used |
+| Set       | LinkedHashSet       | ✅ Yes     | ❌ No       | ✅ One        | ❌ No        | Maintains order    |
+| Set       | TreeSet             | 🔄 Sorted  | ❌ No       | ❌ No         | ❌ No        | Sorted elements    |
+| Set       | EnumSet             | Enum order | ❌ No       | ❌ No         | ❌ No        | Only enums         |
 
      */
 }

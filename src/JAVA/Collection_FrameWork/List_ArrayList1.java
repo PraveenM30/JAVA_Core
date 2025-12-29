@@ -21,10 +21,10 @@ public class List_ArrayList1 {
         Iterator itr = fruits.iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next());
-//
-//            for (Object obj:fruits){
-//                System.out.println(obj);
-//            }
+        }
+        //OR
+        for (Object obj:fruits){
+            System.out.println(obj);
         }
     }
 }

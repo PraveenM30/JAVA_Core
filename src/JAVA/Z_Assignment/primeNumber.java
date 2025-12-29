@@ -2,18 +2,18 @@
 
     public class primeNumber {
         public static void main(String[] args) {
-            int a=18;
+            int a=19;
             if (a==0 || a==1){
                 System.out.println(a+" this is neither prime nor composite");
             }
-            boolean isPrime=false;
+            boolean isPrime=true;
             for (int i = 2; i <= a/2; i++) {
                 if (a%i==0){
-                    isPrime=true;
+                    isPrime=false;
                     break;
                 }
             }
-            if (isPrime==false){
+            if (isPrime==true){
                 System.out.println(a+" is a prime ");
             }else {
                 System.out.println(a+" is a composite");

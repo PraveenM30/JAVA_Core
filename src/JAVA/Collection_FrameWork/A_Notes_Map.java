@@ -22,5 +22,15 @@ public class A_Notes_Map {
     -Duplicate value allowed.
     -Null Not Allowed
 
+| Interface | Class             | Order      | Null Key   | Null Value | Thread-Safe | Notes / Use Case                |
+| --------- | ----------------- | ---------- | ---------- | ---------- | ----------- | ------------------------------- |
+| Map       | HashMap           | ❌ No      | ✅ One    | ✅ Many     | ❌ No        | Fastest, most used              |
+| Map       | LinkedHashMap     | ✅ Yes     | ✅ One    | ✅ Many     | ❌ No        | Insertion order                 |
+| Map       | TreeMap           | 🔄 Sorted  | ❌ No     | ✅ Many     | ❌ No        | Sorted by key                   |
+| Map       | Hashtable         | ❌ No      | ❌ No     | ❌ No       | ✅ Yes       | Legacy                          |
+| Map       | ConcurrentHashMap | ❌ No      | ❌ No     | ❌ No       | ✅ Yes       | Best for concurrency            |
+| Map       | EnumMap           | Enum order | ❌ No     | ✅ Yes      | ❌ No        | Enum keys only                  |
+
+
      */
 }
