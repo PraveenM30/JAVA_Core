@@ -3,7 +3,7 @@ package JAVA.String;
 
 
 
-class String_RemoveDuplicates3 {
+class StringBuilderBuffer {
     public static void main(String[] args) throws InterruptedException {
         // Using StringBuilder (Not Thread-Safe)
         StringBuilder sb = new StringBuilder();

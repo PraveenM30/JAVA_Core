@@ -12,6 +12,7 @@ public class Set_LinkedHashSet {
         b.add("Virat");
         b.add("Rohit");
         b.add(null);
+        b.add(null);
         b.add(123);
         b.add(true);
         b.add("Virat");

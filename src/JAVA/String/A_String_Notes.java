@@ -45,6 +45,8 @@ Here "Hello" and "World" are string literals.
 >>StringBuilder is faster but not thread-safe, while StringBuffer is thread-safe due to its synchronized
  methods. In a multi-threaded environment, you should use StringBuffer to ensure data consistency.
 
+Thread: The smallest unit of execution within a program.
+Synchronization: Only one thread at a time.
  */
 
 }
